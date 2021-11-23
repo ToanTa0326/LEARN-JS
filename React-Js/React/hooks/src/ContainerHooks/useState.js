@@ -2,22 +2,22 @@ import {useState} from 'react'
 import React from 'react'
 
 export default function US(){
-    const [value, setValue] = useState('')
+    const [value, setValue] = useState('');
     const [users, setUser] = useState(() => {
-        const userstorage = JSON.parse(localStorage.getItem('users'))
+        const userstorage = JSON.parse(localStorage.getItem('users'));
 
-        return userstorage ?? []
-    })
+        return userstorage ?? [];
+    });
 
     function handleSet(){
         setUser(users => {
-            const newUsers = [...users, value]
+            const newUsers = [...users, value];
 
-            localStorage.setItem('users', JSON.stringify(newUsers))
+            localStorage.setItem('users', JSON.stringify(newUsers));
 
-            return newUsers
+            return newUsers;
         })
-        setValue('')
+        setValue('');
     }
 
     return (
