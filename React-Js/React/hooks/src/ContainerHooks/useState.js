@@ -11,7 +11,9 @@ export default function US(){
 
     function handleSet(){
         setUser(users => {
-            const newUsers = [...users, value];
+            let newUsers = [...users, value];
+
+            if(value.toLocaleLowerCase() === "clear") newUsers = []
 
             localStorage.setItem('users', JSON.stringify(newUsers));
 
