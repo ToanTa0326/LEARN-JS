@@ -1,28 +1,35 @@
 import {useState} from 'react'
 import React from 'react'
 
-const user = {
-    name: 'Ta Quang Toan',
-    age: 19,
-    Slogan: 'Try To Success!'
-}
-
-let count = 1;
-
 export default function US(){
-    const [User, setUser] = useState(user)
+    const [value, setValue] = useState('')
+    const [users, setUser] = useState(() => {
+        const userstorage = JSON.parse(localStorage.getItem('users'))
 
-    function handleUser(){
-        setUser({
-            ...User,
-            mess: `Add Successful! ${+ count? count++ : ''}`
+        return userstorage ?? []
+    })
+
+    function handleSet(){
+        setUser(users => {
+            const newUsers = [...users, value]
+
+            localStorage.setItem('users', JSON.stringify(newUsers))
+
+            return newUsers
         })
+        setValue('')
     }
 
     return (
         <React.Fragment>
-            <h1>{JSON.stringify(User)}</h1>
-            <button onClick = {handleUser}>Click Me!</button>
+            <input 
+                value = {value}
+                onChange={(e) => setValue(e.target.value)}/>
+            <button onClick={handleSet}>Add</button>
+            <ul>
+                {users.map(((user,id) => 
+                    <li key={id}>{user}</li>))}
+            </ul>
         </React.Fragment>
     )
 }
