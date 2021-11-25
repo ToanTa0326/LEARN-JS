@@ -4,6 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ----- Example of useEffect with Fake App Chat
+function creatEvent(id){
+  setInterval(() => {
+    window.dispatchEvent(
+      new CustomEvent(`lesson-${id}`,{
+        detail: `message of lesson ${id}`
+      })
+    )
+  },1000)
+}
+
+creatEvent(1)
+creatEvent(2)
+creatEvent(3)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

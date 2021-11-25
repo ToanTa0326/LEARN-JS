@@ -1,8 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
+// import React from "react";
 
-import US from './ContainerHooks/useState.js';
-// import TwoWayBinding from './ContainerHooks/twoWayBinding.js';
+// import US from './ContainerHooks/useState.js';
+// import TWBind from './ContainerHooks/twoWayBinding.js';
+// import MUM from "./ContainerHooks/MountedUnMounted";
+// import UE from "./ContainerHooks/useEffect";
+// import UEWPA from "./ContainerHooks/useEffectWithPreviewAvatar";
+import UEWFAC from "./ContainerHooks/useEffectWithFakeAppChat";
 
 function App() {
   return (
@@ -22,7 +27,13 @@ function App() {
       //     </a>
       //   </header>
       // </div>
-      <US />
+
+      // <US />
+      // <TWBind />
+      // <MUM />
+      // <UE />
+      // <UEWPA />
+      <UEWFAC />
     );
 }
 

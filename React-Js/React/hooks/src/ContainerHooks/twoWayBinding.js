@@ -16,7 +16,7 @@ const courses = [
     }
 ]
 
-export default function TwoWayBinding(){
+export default function TWBind(){
     let [checked, setChecked] = useState([])
     
     function changeDefault(){
