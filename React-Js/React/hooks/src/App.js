@@ -7,7 +7,8 @@
 // import MUM from "./ContainerHooks/MountedUnMounted";
 // import UE from "./ContainerHooks/useEffect";
 // import UEWPA from "./ContainerHooks/useEffectWithPreviewAvatar";
-import UEWFAC from "./ContainerHooks/useEffectWithFakeAppChat";
+// import UEWFAC from "./ContainerHooks/useEffectWithFakeAppChat";
+import ULE from "./ContainerHooks/useLayoutEffect";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       // <MUM />
       // <UE />
       // <UEWPA />
-      <UEWFAC />
+      // <UEWFAC />
+      <ULE />
     );
 }
 
