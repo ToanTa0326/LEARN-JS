@@ -8,7 +8,11 @@
 // import UE from "./ContainerHooks/useEffect";
 // import UEWPA from "./ContainerHooks/useEffectWithPreviewAvatar";
 // import UEWFAC from "./ContainerHooks/useEffectWithFakeAppChat";
-import ULE from "./ContainerHooks/useLayoutEffect";
+// import ULE from "./ContainerHooks/useLayoutEffect";
+import UR from "./ContainerHooks/useRef";
+// import MM from "./ContainerHooks/ReactMemo";
+// import UCB from "./ContainerHooks/useCallback";
+// import UMM from "./ContainerHooks/useMemo";
 
 function App() {
   return (
@@ -35,7 +39,11 @@ function App() {
       // <UE />
       // <UEWPA />
       // <UEWFAC />
-      <ULE />
+      // <ULE />
+      <UR />
+      // <MM />
+      // <UCB />
+      // <UMM />
     );
 }
 

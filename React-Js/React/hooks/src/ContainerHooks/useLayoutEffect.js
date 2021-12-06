@@ -22,11 +22,11 @@ export default function ULE(){
     const [mounted, setMounted] = useState(false);
 
     // useEffect(() => {
-    //     if(count > 3) setCount(0);
+    //     if(count > 9) setCount(0);
     // }, [count])
 
     useLayoutEffect(() => {
-        if(count > 3) setCount(0);
+        if(count > 9) setCount(0);
     }, [count])
 
     function CountLayout(){

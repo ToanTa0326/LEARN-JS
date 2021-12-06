@@ -27,18 +27,12 @@ export default function US(){
             return newUsers;
         })
         setValue('');
-        document.querySelector('input[value]').focus();
     }
 
     function handleSetChecked(id){
         console.log(id);
         let isChecked = checked.includes(id);
-        if(isChecked){
-            checked = checked.filter(item => item !== id)
-        }
-        else{
-            checked = [...checked, id];
-        }
+        checked = (isChecked)? checked.filter(item => item !== id) : [...checked, id];
         localStorage.setItem('check', JSON.stringify(checked));
         return checked
     }
@@ -51,9 +45,11 @@ export default function US(){
 
     return (
         <React.Fragment>
+            <p>enter clear to clear all option</p>
             <input 
                 value = {value}
                 onChange={(e) => setValue(e.target.value)}
+                autoFocus
                 onKeyDown={(e) => {
                     if(e.keyCode === 13) handleSet()
                 }}    
