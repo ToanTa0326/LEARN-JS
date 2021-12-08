@@ -58,4 +58,12 @@ const App = () => {
         </React.Fragment>
     )
 }
-ReactDOM.render(<App />, document.querySelector('.root'));
+
+// InsertBefore of Node (new Node, Node existing)
+
+const root1 = document.createElement('h1');
+root1.className = 'root1';
+root1.textContent = 'Day la root1'
+const root = document.querySelector('.root');
+ReactDOM.render(<App />, root);
+root.insertBefore(root1, document.querySelector('.wrapper'))
