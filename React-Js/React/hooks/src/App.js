@@ -9,10 +9,12 @@
 // import UEWPA from "./ContainerHooks/useEffectWithPreviewAvatar";
 // import UEWFAC from "./ContainerHooks/useEffectWithFakeAppChat";
 // import ULE from "./ContainerHooks/useLayoutEffect";
-import UR from "./ContainerHooks/useRef";
+// import UR from "./ContainerHooks/useRef";
 // import MM from "./ContainerHooks/ReactMemo";
 // import UCB from "./ContainerHooks/useCallback";
 // import UMM from "./ContainerHooks/useMemo";
+// import UseReducer from "./ContainerHooks/useReducer";
+import TodoAppWithReducer from "./ContainerHooks/TodoAppWithReducer";
 
 function App() {
   return (
@@ -40,10 +42,12 @@ function App() {
       // <UEWPA />
       // <UEWFAC />
       // <ULE />
-      <UR />
+      // <UR />
       // <MM />
       // <UCB />
       // <UMM />
+      // <UseReducer />
+      <TodoAppWithReducer />
     );
 }
 
