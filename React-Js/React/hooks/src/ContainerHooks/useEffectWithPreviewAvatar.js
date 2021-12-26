@@ -31,9 +31,9 @@ export default function UEWPA(){
         console.log('log success');
         if(img && value && desc){
             let data = {
-                img: img,
-                value: value,
-                desc: desc
+                img,
+                value,
+                desc
             }
             data = [...avatars, data];
             setvalue('');
