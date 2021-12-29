@@ -40,3 +40,24 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.dark{
+  color: #fff;
+  background-color: #282c34;
+}
+
+.edit{
+  display: none;
+}
+
+.editing .todo{
+  display: none;
+}
+
+.editing .edit{
+  display: inline-block;
+}
+
+.todo{
+  user-select: none;
+}

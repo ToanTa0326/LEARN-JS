@@ -1,6 +1,6 @@
 import { useReducer, useRef } from "react";
-import { setJob, addJob, deleteJob } from "./dispatch"
-import { reducer } from "./reducer";
+import { setJob, addJob, deleteJob } from "./TodoAppWithUseReducer/dispatch"
+import { reducer } from "./TodoAppWithUseReducer/reducer";
 export default function TodoAppWithReducer() {
     const initialState = {
         job: '',

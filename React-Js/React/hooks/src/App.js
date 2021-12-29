@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 // import React from "react";
 
 // import US from './ContainerHooks/useState.js';
@@ -14,41 +14,47 @@
 // import UCB from "./ContainerHooks/useCallback";
 // import UMM from "./ContainerHooks/useMemo";
 // import UseReducer from "./ContainerHooks/useReducer";
-import TodoAppWithReducer from "./ContainerHooks/TodoAppWithUseReducer/TodoAppWithReducer";
+// import TodoAppWithReducer from './ContainerHooks/TodoAppWithReducer';
+// import ContextApp from './ContainerHooks/ContextApp';
+// import TodoAppCxR from './ContainerHooks/TodoApp(Contex X Reducer)';
+import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
 
 function App() {
   return (
-      // <div className="App">
-      //   <header className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <p>
-      //       Edit <code>src/App.js</code> and save to reload.
-      //     </p>
-      //     <a
-      //       className="App-link"
-      //       href="https://reactjs.org"
-      //       target="_blank"
-      //       rel="noopener noreferrer"
-      //     >
-      //       Learn React
-      //     </a>
-      //   </header>
-      // </div>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
 
-      // <US />
-      // <TWBind />
-      // <MUM />
-      // <UE />
-      // <UEWPA />
-      // <UEWFAC />
-      // <ULE />
-      // <UR />
-      // <MM />
-      // <UCB />
-      // <UMM />
-      // <UseReducer />
-      <TodoAppWithReducer />
-    );
+    // <US />
+    // <TWBind />
+    // <MUM />
+    // <UE />
+    // <UEWPA />
+    // <UEWFAC />
+    // <ULE />
+    // <UR />
+    // <MM />
+    // <UCB />
+    // <UMM />
+    // <UseReducer />
+    // <TodoAppWithReducer />
+    // <ContextApp />
+    // <TodoAppCxR />
+    <UseImperativeHandle />
+  );
 }
 
 export default App;
