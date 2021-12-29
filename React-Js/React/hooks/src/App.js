@@ -14,10 +14,10 @@ import './App.css';
 // import UCB from "./ContainerHooks/useCallback";
 // import UMM from "./ContainerHooks/useMemo";
 // import UseReducer from "./ContainerHooks/useReducer";
-// import TodoAppWithReducer from './ContainerHooks/TodoAppWithReducer';
+import TodoAppWithReducer from './ContainerHooks/TodoAppWithReducer';
 // import ContextApp from './ContainerHooks/ContextApp';
 // import TodoAppCxR from './ContainerHooks/TodoApp(Contex X Reducer)';
-import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
+// import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
 
 function App() {
   return (
@@ -50,10 +50,10 @@ function App() {
     // <UCB />
     // <UMM />
     // <UseReducer />
-    // <TodoAppWithReducer />
+    <TodoAppWithReducer />
     // <ContextApp />
     // <TodoAppCxR />
-    <UseImperativeHandle />
+    // <UseImperativeHandle />
   );
 }
 
