@@ -1,0 +1,19 @@
+.btn{
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #000;
+    &:hover{
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
+
+.active{
+    color: #fff;
+    background-color: rgb(240, 33, 205);
+}
+
+.primary{
+    color: #fff;
+    background-color: rgb(19, 190, 233);
+}
