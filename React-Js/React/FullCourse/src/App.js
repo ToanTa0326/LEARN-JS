@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 // import React from "react";
 
 // import US from './ContainerHooks/useState.js';
@@ -14,10 +14,14 @@ import './App.css';
 // import UCB from "./ContainerHooks/useCallback";
 // import UMM from "./ContainerHooks/useMemo";
 // import UseReducer from "./ContainerHooks/useReducer";
-import TodoAppWithReducer from './ContainerHooks/TodoAppWithReducer';
+// import TodoAppWithReducer from './ContainerHooks/TodoAppWithReducer';
 // import ContextApp from './ContainerHooks/ContextApp';
 // import TodoAppCxR from './ContainerHooks/TodoApp(Contex X Reducer)';
 // import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
+// import HigherOrderComponent from './higherOrderComponent/HigherOrderComponent';
+// import ClsxAndClassnames from "./React_Css_Container/ClsxAndClassnames";
+// import CssModule from "./React_Css_Container/cssModule";
+import BrowserRouter from "./RouterContainer/BrowserRouter";
 
 function App() {
   return (
@@ -50,10 +54,14 @@ function App() {
     // <UCB />
     // <UMM />
     // <UseReducer />
-    <TodoAppWithReducer />
+    // <TodoAppWithReducer />
     // <ContextApp />
     // <TodoAppCxR />
     // <UseImperativeHandle />
+    // <HigherOrderComponent />
+    // <CssModule />
+    // <ClsxAndClassnames />
+    <BrowserRouter />
   );
 }
 

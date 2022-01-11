@@ -1,7 +1,7 @@
 import Button from "./ClsxAndClassnames/Button";
 import GlobalCss from "./ClsxAndClassnames/GlobalCss/GlobalCss";
 
-export default function ClcxAndClassnames() {
+export default function ClsxAndClassnames() {
     return (
         <GlobalCss>
             <div className="d-flex">
