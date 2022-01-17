@@ -21,7 +21,8 @@
 // import HigherOrderComponent from './higherOrderComponent/HigherOrderComponent';
 // import ClsxAndClassnames from "./React_Css_Container/ClsxAndClassnames";
 // import CssModule from "./React_Css_Container/cssModule";
-import BrowserRouter from "./RouterContainer/BrowserRouter";
+// import BrowserRouter from "./RouterContainer/BrowserRouter";
+import SearchParams from "./RouterContainer/SearchParams";
 
 function App() {
   return (
@@ -61,7 +62,8 @@ function App() {
     // <HigherOrderComponent />
     // <CssModule />
     // <ClsxAndClassnames />
-    <BrowserRouter />
+    // <BrowserRouter />
+    <SearchParams />
   );
 }
 
