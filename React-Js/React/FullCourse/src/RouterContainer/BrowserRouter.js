@@ -1,8 +1,8 @@
 import { Routes, Route, Link, Outlet } from 'react-router-dom'
-import Home from './components/Home';
-import About from './components/About';
-import Profile from './components/Profile';
-import Error from './components/Error';
+import Home from './BrowserRouterComponents/Home';
+import About from './BrowserRouterComponents/About';
+import Profile from './BrowserRouterComponents/Profile';
+import Error from './BrowserRouterComponents/Error';
 
 export default function BrowserRouter() {
 
