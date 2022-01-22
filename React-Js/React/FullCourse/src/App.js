@@ -22,7 +22,9 @@
 // import ClsxAndClassnames from "./React_Css_Container/ClsxAndClassnames";
 // import CssModule from "./React_Css_Container/cssModule";
 // import BrowserRouter from "./RouterContainer/BrowserRouter";
-import SearchParams from "./RouterContainer/SearchParams";
+// import SearchParams from "./RouterContainer/SearchParams";
+// import SignupForm from "./Formik/BasicForm";
+import Proptypes from "./Proptypes/Proptypes";
 
 function App() {
   return (
@@ -63,7 +65,9 @@ function App() {
     // <CssModule />
     // <ClsxAndClassnames />
     // <BrowserRouter />
-    <SearchParams />
+    // <SearchParams />
+    // <SignupForm />
+    <Proptypes />
   );
 }
 

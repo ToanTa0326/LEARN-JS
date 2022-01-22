@@ -26,11 +26,11 @@ export default function Invoices() {
           }}
         >
           <input
-            value={searchParams.get("filter") || ""}
+            value={searchParams.get("search") || ""}
             onChange={event => {
-              let filter = event.target.value;
-              if (filter) {
-                setSearchParams({ filter });
+              let search = event.target.value;
+              if (search) {
+                setSearchParams({ search });
               } else {
                 setSearchParams({});
               }
@@ -38,10 +38,10 @@ export default function Invoices() {
           />
           {invoices
             .filter(invoice => {
-              let filter = searchParams.get("filter");
-              if (!filter) return true;
+              let search = searchParams.get("search");
+              if (!search) return true;
               let name = invoice.name.toLowerCase();
-              return name.includes(filter.toLowerCase());
+              return name.includes(search.toLowerCase());
             })
             .map(invoice => (
                 <QueryNavLink
@@ -59,7 +59,7 @@ export default function Invoices() {
         </nav>
         <Outlet />
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route index element={<Home />} />
             <Route path="/invoices/1995" element={<SantaMonica />} />
             <Route path="/invoices/2000" element={<Stankonia />} />
             <Route path="/invoices/1997" element={<Tubthumper />} />
