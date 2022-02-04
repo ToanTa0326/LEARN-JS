@@ -17,7 +17,6 @@ export default function Proptypes() {
 
     return(
         <div>
-         
             {/* printing all props */}
             <h1>
                 {props.arrayProp}

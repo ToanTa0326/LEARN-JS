@@ -2,6 +2,7 @@
 // import './App.css';
 // import React from "react";
 
+// ----HOOKS----
 // import US from './ContainerHooks/useState.js';
 // import TWBind from './ContainerHooks/twoWayBinding.js';
 // import MUM from "./ContainerHooks/MountedUnMounted";
@@ -18,13 +19,28 @@
 // import ContextApp from './ContainerHooks/ContextApp';
 // import TodoAppCxR from './ContainerHooks/TodoApp(Contex X Reducer)';
 // import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
+
+// ---- HIGH ORDER COMPONENT ----
 // import HigherOrderComponent from './higherOrderComponent/HigherOrderComponent';
+
+// ---- STYLE CSS ----
 // import ClsxAndClassnames from "./React_Css_Container/ClsxAndClassnames";
 // import CssModule from "./React_Css_Container/cssModule";
+
+// ---- ROUTER ----
 // import BrowserRouter from "./RouterContainer/BrowserRouter";
 // import SearchParams from "./RouterContainer/SearchParams";
+
+// ---- FORM ----
 // import SignupForm from "./Formik/BasicForm";
-import Proptypes from "./Proptypes/Proptypes";
+
+// ---- PROPTYPES ----
+// import Proptypes from "./Proptypes/Proptypes";
+
+// ---- Axios Data ----
+// import AxiosData from "./FetchData/AxiosData";
+// import FetchData from "./FetchData/FetchData";
+import AxiosUsingHooks from "./FetchData/AxiosUsingHooks";
 
 function App() {
   return (
@@ -61,13 +77,21 @@ function App() {
     // <ContextApp />
     // <TodoAppCxR />
     // <UseImperativeHandle />
+
     // <HigherOrderComponent />
+
     // <CssModule />
     // <ClsxAndClassnames />
+
     // <BrowserRouter />
     // <SearchParams />
+
     // <SignupForm />
-    <Proptypes />
+    // <Proptypes />
+
+    // <AxiosData />
+    // <FetchData />
+    <AxiosUsingHooks />
   );
 }
 
