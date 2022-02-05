@@ -19,6 +19,7 @@
 // import ContextApp from './ContainerHooks/ContextApp';
 // import TodoAppCxR from './ContainerHooks/TodoApp(Contex X Reducer)';
 // import UseImperativeHandle from './ContainerHooks/useImperativeHandle';
+import CustomHooks from "./ContainerHooks/CustomHooks/CustomHooks";
 
 // ---- HIGH ORDER COMPONENT ----
 // import HigherOrderComponent from './higherOrderComponent/HigherOrderComponent';
@@ -32,6 +33,7 @@
 // import SearchParams from "./RouterContainer/SearchParams";
 
 // ---- FORM ----
+// import FormUsingHooks from "./Formik/FormUsingHooks";
 // import SignupForm from "./Formik/BasicForm";
 
 // ---- PROPTYPES ----
@@ -40,7 +42,7 @@
 // ---- Axios Data ----
 // import AxiosData from "./FetchData/AxiosData";
 // import FetchData from "./FetchData/FetchData";
-import AxiosUsingHooks from "./FetchData/AxiosUsingHooks";
+// import AxiosUsingHooks from "./FetchData/AxiosUsingHooks";
 
 function App() {
   return (
@@ -77,6 +79,7 @@ function App() {
     // <ContextApp />
     // <TodoAppCxR />
     // <UseImperativeHandle />
+    <CustomHooks />
 
     // <HigherOrderComponent />
 
@@ -87,11 +90,12 @@ function App() {
     // <SearchParams />
 
     // <SignupForm />
+    // <FormUsingHooks />
     // <Proptypes />
 
     // <AxiosData />
     // <FetchData />
-    <AxiosUsingHooks />
+    // <AxiosUsingHooks />
   );
 }
 
