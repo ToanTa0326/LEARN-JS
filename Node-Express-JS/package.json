@@ -1,0 +1,32 @@
+{
+  "name": "node-express-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToanTa0326/Node_Express_JS.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "node",
+    "express",
+    "express",
+    "js"
+  ],
+  "author": "Ta Quang Toan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToanTa0326/Node_Express_JS/issues"
+  },
+  "homepage": "https://github.com/ToanTa0326/Node_Express_JS#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
